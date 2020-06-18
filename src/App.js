@@ -1,10 +1,18 @@
-import React from 'react';
-import Tetris from './components/Tetris';
+import React, { lazy, Suspense } from "react";
+const Tetris = lazy(() => import("./components/Tetris"));
 
-const App = () => (
-  <div className="App">
-    <Tetris />
-  </div>
-)
+const renderLoading = () => <div className="loader"></div>;
+
+const App = () => {
+  
+
+  return (
+    <div className="App">
+      <Suspense fallback={renderLoading()}>
+        <Tetris />
+      </Suspense>
+    </div>
+  );
+};
 
 export default App;
