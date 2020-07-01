@@ -1,4 +1,4 @@
-# :red_circle::black_circle: Connect4 Game [![License](https://img.shields.io/badge/licence-MIT-blue)](https://choosealicense.com/licenses/mit/)
+# :red_circle::black_circle: Space Tetris Game [![License](https://img.shields.io/badge/licence-MIT-blue)](https://choosealicense.com/licenses/mit/)
 🎮 Simple Tetris Web game (using ReactJS, Hooks & StyledComponents) 
 
 <br/>
@@ -26,6 +26,10 @@ npm run dev
 
 ### TIPS
 - If you don't see directories `node_modules` after downloading it, or you have some other problems, try to disable `Windows Defender`, download directory again and repeat steps
+
+
+### DEPLOYMENT
+https://space-react-tetris.herokuapp.com/
 
 
 <br/><br/>
