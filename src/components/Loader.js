@@ -1,9 +1,9 @@
 import React from 'react'
+import './styles/StyledLoading.css'
 
 function Loader() {
   return (
-    <div className="loader center">
-      <i className="fa fa-spin" /> 
+    <div className="loader">
     </div>
   )
 }
