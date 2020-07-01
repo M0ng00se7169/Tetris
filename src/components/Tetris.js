@@ -116,7 +116,9 @@ const Tetris = () => {
               </div>
             )}
             ;
-            <StartButton callback={startGame} />
+            <div tabIndex="0" role="button">
+              <StartButton callback={startGame} />
+            </div>
           </aside>
         </Suspense>
       </StyledTetris>
